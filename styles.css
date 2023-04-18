@@ -91,6 +91,7 @@ button[data-icon="shopping-cart"]::before {
     border-radius: 0.5rem;
     margin: 2rem 1rem;
     overflow: hidden;
+    display: grid;
 }
 
 .text-content h1 {
@@ -140,7 +141,13 @@ button[data-icon="shopping-cart"]::before {
     width: 1px;
 }
 
+@media (width >= 600px) {
+    .content-container {
+        grid-template-columns: 1fr 1fr;
+        max-width: 600px;
+    }
 
-/* media queries
-- Mobile: 375px
-- Desktop: 1440px */
+    .text-content p, .text-content h1, .prices-container, button-container {
+        margin-bottom: 2rem;
+    }
+}
