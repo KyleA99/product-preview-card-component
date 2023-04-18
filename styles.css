@@ -57,6 +57,8 @@ body {
     font-size: 0.875rem;
     color: var(--clr-neutral-grey);
     background-color: var(--clr-secondary-white);
+    display: grid;
+    place-content: center;
 }
 
 button {
