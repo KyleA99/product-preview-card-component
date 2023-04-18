@@ -150,6 +150,6 @@ button[data-icon="shopping-cart"]::before {
     }
 
     .text-content p, .text-content h1, .prices-container, button-container {
-        margin-bottom: 2rem;
+        margin-bottom: 1.25rem;
     }
 }
